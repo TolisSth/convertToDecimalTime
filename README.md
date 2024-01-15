@@ -33,5 +33,5 @@ print("Minutes: ", getMinutes(x))
 output: 
 Let's say that my input is 3600, the output will be: `Minutes: 41`.
 
-# Motiation for this project 
+# Motivation for this project 
 The motivation for this small project came from an article featured on Hacker news that contained a link to the wikipedia article for decimal time. Decimal time is not widely used and that's why there was no library to handle the conversions. It is likely that this library won't be used anywhere because of how little decimal time is used but it is great to always have the option. 
