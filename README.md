@@ -25,7 +25,7 @@ The following are the descriptions of the functions and their required input.
 # Example usage
 After you install the library using the command `pip install /path/to/file/convertToDecimalTime_TolisSth-1.0.0-py3-none-any.whl` or `pip install convertToDecimalTime`, you can start using the library writing scripts like the following: 
 ```
-from convert import getMinutes
+from convertToDecimalTime import getMinutes
 
 x = int(input("Minutes: ")) 
 print("Minutes: ", getMinutes(x)) 
