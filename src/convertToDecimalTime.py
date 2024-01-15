@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 
 divideBy = 0.864 # This is the value that represents how many standard seconds is a decimal time second
 
-# in general SIs means SI (Système International) seconds
+# in general SIs means SI (Systèm International) seconds
 def getSeconds(SIs): 
     return int(SIs / divideBy)
 
