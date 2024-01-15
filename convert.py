@@ -16,7 +16,7 @@ def getHours(SIs):
     minutes = getMinutes(seconds)
     return int(minutes / 100) 
 
-def getTimeNow(SIs): 
+def getTimeNow(): 
     hoursMinsSecs = [] # We return everything in this function
 
     timeNow = datetime.now() 
