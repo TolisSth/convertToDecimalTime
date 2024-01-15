@@ -1,0 +1,18 @@
+[project]
+name = "convertToDecimalTime"
+version = "1.0.1"
+authors = [
+  { name="Apostolos Halis", email="tolishalis@gmail.com" },
+]
+description = "A small python library to convert standard time to decimal time."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/TolisSth/convertToDecimalTime"
+Issues = "https://github.com/TolisSth/convertToDecimalTime/issues"
