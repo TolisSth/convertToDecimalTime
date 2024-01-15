@@ -23,7 +23,6 @@ def getTimeNow():
     startOfDay = (timeNow - timeNow.replace(hour=0, minute=0, second=0, microsecond=0)).total_seconds()
 
     secondsFromMidnight = int(startOfDay) 
-    print(secondsFromMidnight)
      
     # Convert & add to returning array
     hours = getHours(secondsFromMidnight) 
