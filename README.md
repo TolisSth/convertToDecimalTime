@@ -22,5 +22,16 @@ The following are the descriptions of the functions and their required input.
 - `getHours`: Takes an int argument that represents the SI seconds and returns an int that represents the DT hours. 
 - `getTimeNow`: Gets the system time and returns an array that contains the current hours, minutes and seconds in DT. 
 
+# Example usage
+After you install the library using the command `pip install /path/to/file/convertToDecimalTime_TolisSth-1.0.0-py3-none-any.whl`, you can start using the library writing scripts like the following: 
+```
+from convert import getMinutes
+
+x = int(input("Seconds: ")) 
+print("Minutes: ", getMinutes(x)) 
+```
+output: 
+Let's say that my input is 3600, the output will be: `Minutes: 41`.
+
 # Motiation for this project 
 The motivation for this small project came from an article featured on Hacker news that contained a link to the wikipedia article for decimal time. Decimal is not widely used and that's why there was no library to handle the conversions. It is likely that this library won't be used anywhere because of how little decimal time is used but it is great to always have the option. 
