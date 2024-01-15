@@ -23,7 +23,7 @@ The following are the descriptions of the functions and their required input.
 - `getTimeNow`: Gets the system time and returns an array that contains the current hours, minutes and seconds in DT. 
 
 # Example usage
-After you install the library using the command `pip install /path/to/file/convertToDecimalTime_TolisSth-1.0.0-py3-none-any.whl`, you can start using the library writing scripts like the following: 
+After you install the library using the command `pip install /path/to/file/convertToDecimalTime_TolisSth-1.0.0-py3-none-any.whl` or `pip install convertToDecimalTime`, you can start using the library writing scripts like the following: 
 ```
 from convert import getMinutes
 
