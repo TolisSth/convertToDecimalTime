@@ -27,7 +27,7 @@ After you install the library using the command `pip install /path/to/file/conve
 ```
 from convert import getMinutes
 
-x = int(input("Seconds: ")) 
+x = int(input("Minutes: ")) 
 print("Minutes: ", getMinutes(x)) 
 ```
 output: 
